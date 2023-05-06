@@ -1,9 +1,11 @@
 /* Arquivo responsável pelos estilos */
 /*Aula 24/04/2023 - Estilos Menu*/
+
 body, ul {
     margin: 0px;
     padding: 0px;
 }
+
 #menu a {
     color: black;
     text-decoration: none;
@@ -20,10 +22,12 @@ body, ul {
     text-shadow: 4px 4px 6px #0000007a;
 
 }
+
 #logo img:hover {
     box-shadow: 4px 4px 6px #0000007a;
     transition: 0.3s;
 }
+
 #logo img {
     float: left;
     height: 55px;
@@ -31,6 +35,7 @@ body, ul {
     top: 0x;
     left: 0px;
 }
+
 #header {
  width: 100%;
  position: fixed;
@@ -43,6 +48,7 @@ body, ul {
  justify-content: space-between;
  background: #e7e7e7;
 }
+
 #menu {
     display: flex;
     list-style: none;
@@ -51,15 +57,33 @@ body, ul {
 #btn-mobile {
     display: none;
 }
+
+.carrousel-inner .carousel-item img {
+    width: 100%;
+    margin: auto;
+    max-height: 500px;
+    padding-top: 85px;
+}
+
+
+
+
 #carouselExampleInterval {
     position: relative;
     z-index: 10;
-    padding-top: 75px;
-    width: 100%;
+    padding-top: 80px;
+    margin-left: 8px;
+    margin-right: 8px;
+    box-shadow: 6px 6px 6px #0000007a;
+    transition: 0.3s;
     }
+    
+
 #carouselExampleInterval img {
-    height: 350px;
+    max-height: 550px;
+    width: 100%;
 }
+
 
 /* css estilos banner */
 
@@ -68,7 +92,7 @@ body, ul {
     height: 500px;
     margin-top: 10px;
     padding: 50px;
-    background-color: #fda1a133;
+    background-color: #6e010194;
 }
 
 .section-banner-home img {
@@ -92,13 +116,14 @@ body, ul {
     .section-banner-home .texto-banner p {
         font-size: 15px;
         margin-bottom: 20px;
+        color: white;
         
     }
 
     .section-banner-home.texto-banner a {
-        color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
         text-decoration: none;
-        background-color: #fff;
+        background-color: rgb(2, 0, 0);
         padding: 4px 14px;
         font-size: 15px;
         
