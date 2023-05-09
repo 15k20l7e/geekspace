@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,125 +8,217 @@
     <link rel="stylesheet" type="text/css" href="./css/style.css">
     <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css">
 
-    <title>..:: Paranormal   ::..</title>
+    <title>..:: Paranormal ::..</title>
 </head>
+
 <body>
     <!-- Aula 24/04/2023 - HTML -->
     <!-- Inicío menu responsivel-->
     <header id="header">
         <a id="logo" href="index.html"><img src="./img/Ativo-1-1-removebg-preview.png" alt="Logo Paranormal"> </a>
         <nav id="nav">
-              <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="false">
+            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="false">
                 <span id="hamburguer"></span>
             </button>
             <ul id="menu" role="menu">
-            <li><a class="linkMenu" href="index.html">Home</a></li>
-            <li><a class="linkMenu" href="produtos.html">Produtos</a></li>
-            <li><a class="linkMenu" href="streaming.html">Streaming</a></li>
-            <li><a class="linkMenu" href="contato.html">Contato</a></li>
-            <!--- atalho para copiar conteudo > Alt+Shift+seta baixo-->
+                <li><a class="linkMenu" href="index.html">Home</a></li>
+                <li><a class="linkMenu" href="produtos.html">Produtos</a></li>
+                <li><a class="linkMenu" href="streaming.html">Streaming</a></li>
+                <li><a class="linkMenu" href="contato.html">Contato</a></li>
+                <!--- atalho para copiar conteudo > Alt+Shift+seta baixo-->
             </ul>
         </nav>
     </header>
     <!--fim menu responsivel-->
-    <!--inicio carrosel pagina principal--> 
-            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel" data-bs-pause="false">
-                    <div class="carousel-inner" role="listbox">
-                        <div class="carousel-item active" data-bs-interval="2000">
-                            <img
-                            src="./img/carousel_1.webp"
-                            class="d-block w-100"
-                            alt="..."
-                            />
-                        </div>
-                        <div class="carousel-item" data-bs-interval="1800">
-                            <img
-                            src="./img/carousel_2.jpg"
-                            class="d-block w-100"
-                            alt="..."
-                            />
-                        </div>
-                        <div class="carousel-item" data-bs-interval="1800">
-                            <img
-                            src="./img/carousel_3.webp"
-                            class="d-block w-100"
-                            alt="..."
-                            />
-                        </div>
-                        <div class="carousel-item" data-bs-interval="1800">
-                            <img
-                            src="./img/carousel_4.jpg"
-                            class="d-block w-100"
-                            alt="..."
-                            />
-                        </div> 
-                    </div> 
-                    <!--fm do carrosel-->
-                    <!--inicio de controle do carrosel-->
-                    <button
-                        class="carousel-control-prev"
-                        data-bs-target="#carouselExampleInterval"
-                        type="button"
-                        data-bs-slide="prev"
-                    >
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button
-                        class="carousel-control-next"
-                        data-bs-target="#carouselExampleInterval"
-                        type="button"
-                        data-bs-slide="next"
-                    >
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
+    <!--inicio carrosel pagina principal-->
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel" data-bs-pause="false">
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active" data-bs-interval="2000">
+                <img src="./img/carousel_1.webp" class="d-block w-100" alt="..." />
             </div>
+            <div class="carousel-item" data-bs-interval="1800">
+                <img src="./img/carousel_2.jpg" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item" data-bs-interval="1800">
+                <img src="./img/carousel_3.webp" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item" data-bs-interval="1800">
+                <img src="./img/carousel_4.jpg" class="d-block w-100" alt="..." />
+            </div>
+        </div>
+        <!--fm do carrosel-->
+        <!--inicio de controle do carrosel-->
+        <button class="carousel-control-prev" data-bs-target="#carouselExampleInterval" type="button"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" data-bs-target="#carouselExampleInterval" type="button"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
-      <!-- Fim do carousel-->
+    </div>
+    <!-- Fim do carousel-->
 
-  <!--inicio banner-->
-        <div class="section-banner-home">
-            <div class="container-fluid">
-                <div class="row m-0">
-                    <div class="col-12 col-md-6">
-                        <figure>
-                            <img src="./img/banner.webp" alt="banner-home">
-                        </figure>
-                     </div>
-                     <div class="col-12 col-md-6">
-                        <section class="texto-banner d-none d-md-block">
-                            <h1>Venha se aprofundar no mundo do rpg!</h1>
-                            <p class="d-none d-md-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et vel fugiat eligendi cupiditate dolores accusamus doloribus libero. Eligendi obcaecati, dolore, iusto odit hic mollitia, ab corporis modi minus vero expedita.</p>
-                            <a href="Produtos.html">Saiba mais!</a>
-                        </section>
-                     </div>
+    <!--inicio banner-->
+    <div class="section-banner-home">
+        <div class="container-fluid">
+            <div class="row m-0">
+                <div class="col-12 col-md-6">
+                    <figure>
+                        <img src="./img/banner.webp" alt="banner-home">
+                    </figure>
+                </div>
+                <div class="col-12 col-md-6">
+                    <section class="texto-banner d-none d-md-block">
+                        <h1>Venha se aprofundar no mundo do rpg!</h1>
+                        <p class="d-none d-md-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et vel
+                            fugiat eligendi cupiditate dolores accusamus doloribus libero. Eligendi obcaecati, dolore,
+                            iusto odit hic mollitia, ab corporis modi minus vero expedita.</p>
+                        <a href="Produtos.html">Saiba mais!</a>
+                    </section>
                 </div>
             </div>
         </div>
-   <!--fim do banner-->
-   <!--inicio destaque-->
-   <div class="destaque">
-    <div class="container">
-        <div class="row d-flex justify-content-center">
-            <!--inicio da tag section do texto destaque-->
-            <section class="col-12">
-                <h2>Que tal nossas coleções de livros de regras!</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi sit vitae omnis nemo nostrum, ab tenetur maiores fuga veniam neque officiis molestiae inventore, ipsam perferendis pariatur numquam, quaerat temporibus blanditiis!</p>
-                <section>
-                    
+    </div>
+    <!--fim do banner-->
+    <!--inicio destaque-->
+    <div class="destaque">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <!--inicio da tag section do texto destaque-->
+                <section class="col-12">
+                    <h2>Que tal nossas coleções de livros de regras!</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi sit vitae omnis nemo nostrum, ab
+                        tenetur maiores fuga veniam neque officiis molestiae inventore, ipsam perferendis pariatur
+                        numquam, quaerat temporibus blanditiis!</p>
+                    <section>
+
+                    </section>
+
                 </section>
 
-            </section>
+            </div>
 
         </div>
 
     </div>
+    <!-- fim destaque-->
+    <!-- inicio do texto novidades -->
+    <div class="novidades" id="novidades-mobile">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <section class="text-body">
+                        <h2>Conheça nossas novidades</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus atque labore molestiae soluta,
+                            dolores dolor consequuntur ad quasi dolore assumenda voluptatum aspernatur tempore unde ut
+                            sit fuga ipsa blanditiis explicabo.</p>
+                        <a class="btn-banner" href="#" target="_blank">Saiba mais.</a>
+                    </section>
+                </div>
+                <!-- fim twxto novidades -->
+                <!-- inicio imagem novidaes -->
+                <div class="col-md-6">
+                    <figure>
+                        <img src="./img/4c12ee_cf5dedf4934e499f9784ea41366b12ea~mv2.webp" class="img-fluid"
+                            alt="banner-home">
+                    </figure>
+                </div>
+                <!-- fim imagem novidades -->
+            </div>
+        </div>
+    </div>
+    <!-- alt + shift +  F  CORRIGE A IDENTAÇÃO DO CÓDIGO Eescolha a segunda opção-->
+    <!-- inicio galeria -->
+    <div class="galeria d-flex align-itens-center">
+        <div class="container">
+            <div class="row">
+                <!-- inicio texto galerias -->
+                <div class="col-12">
+                    <section class="texto-galeria">
+                        <h2>Conheça nossa galeria</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo ad architecto ea id reprehenderit temporibus nemo a dolorem quibusdam, delectus necessitatibus, quisquam molestiae eius ipsam. Possimus tempora explicabo nemo neque.</p>                        
+                    </section>
+                </div>
+                <!-- fim texto galerias -->
+                <!-- inicio imagem 1 galeria -->
+                <div class="gallery col-6 col-md-3">
+                    <img src="./img/banner.webp" class="img-fluid" alt="img-galeria">
+                </div>
+                <!-- fim da imagem 1 galeria -->
+                <!-- inicio imagem 2 galeria -->
+                <div class="gallery col-6 col-md-3">
+                    <img src="./img/banner.webp" class="img-fluid" alt="img-galeria">
+                </div>
+                <!-- fim da imagem 2 galeria -->
+                <!-- inicio imagem 3 galeria -->
+                <div class="gallery col-6 col-md-3">
+                    <img src="./img/banner.webp" class="img-fluid" alt="img-galeria">
+                </div>
+                <!-- fim da imagem 3 galeria -->
+                <!-- inicio imagem 4 galeria -->
+                <div class="gallery col-6 col-md-3">
+                    <img src="./img/banner.webp" class="img-fluid" alt="img-galeria">
+                </div>
+                <!-- fim da imagem 4 galeria -->
+                <!-- inicio imagem 5 galeria -->
+                <div class="gallery col-6 col-md-3">
+                    <img src="./img/banner.webp" class="img-fluid" alt="img-galeria">
+                </div>
+                <!-- fim da imagem 5 galeria -->
+                <!-- inicio imagem 6 galeria -->
+                <div class="gallery col-6 col-md-3">
+                    <img src="./img/banner.webp" class="img-fluid" alt="img-galeria">
+                </div>
+                <!-- fim da imagem 6 galeria -->
+                <!-- inicio imagem 7 galeria -->
+                <div class="gallery col-6 col-md-3">
+                    <img src="./img/banner.webp" class="img-fluid" alt="img-galeria">
+                </div>
+                <!-- fim da imagem 7 galeria -->
+                <!-- inicio imagem 8 galeria -->
+                <div class="gallery col-6 col-md-3">
+                    <img src="./img/banner.webp" class="img-fluid" alt="img-galeria">
+                </div>
+                <!-- fim da imagem 8 galeria -->
+                <!-- inicio imagem 9 galeria -->
+                <div class="gallery col-6 col-md-3">
+                    <img src="./img/banner.webp" class="img-fluid" alt="img-galeria">
+                </div>
+                <!-- fim da imagem 9 galeria -->
+                <!-- inicio imagem 10 galeria -->
+                <div class="gallery col-6 col-md-3">
+                    <img src="./img/banner.webp" class="img-fluid" alt="img-galeria">
+                </div>
+                <!-- fim da imagem 10 galeria -->
+                <!-- inicio imagem 11 galeria -->
+                <div class="gallery col-6 col-md-3">
+                    <img src="./img/banner.webp" class="img-fluid" alt="img-galeria">
+                </div>
+                <!-- fim da imagem 11 galeria -->
+                <!-- inicio imagem 12 galeria -->
+                <div class="gallery col-6 col-md-3">
+                    <img src="./img/banner.webp" class="img-fluid" alt="img-galeria">
+                </div>
+                <!-- fim da imagem 12 galeria -->
+            </div>
+        </div>
+    </div>
+    <!-- fim galeria -->
 
-   </div>
+
+
+
+
+
+
+
 </body>
 
 
-    <script type="text/javascript" src="./bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="./bootstrap/js/bootstrap.min.js"></script>
 
-</html>                 
+</html>
