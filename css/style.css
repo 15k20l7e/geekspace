@@ -422,6 +422,11 @@ body, ul {
     padding-bottom: 9px;
     position: relative;
 }
+#text local {
+    border-radius: 1px solid #a3aff0;
+    padding-bottom: 9px;
+    position: relative;
+}
 .text-left span {
     background: #111e8d none repeat scroll 0 0;
     bottom: -2px;
@@ -494,34 +499,50 @@ body, ul {
 }
 /* fim css mapa */
 
-/* Inicio whatsapp */
+/* Fim CSS Mapa */
+
+/* Início Whatsapp */
 .whatsapp {
     position: fixed;
     z-index: 2;
     top: 200px;
     right: 20px;
-    }
-    .whatsapp img {
-        height: 60px;
-    }
+}
+.whatsapp img {
+    height: 60px;
+}
 
-    .whatsapp .pulando {
-        border-radius: 100%;
-        width: 50px;
-        height: 50px;
-        animation: pulando .4s cubic-bezier(.53, -0.03, .67, 1.06);
-        animation-direction: alternate;
-        animation-iteration-count: infinite;
+/* Efeito Pulse */
+.whatsapp .pulse {
+    animation: pulse 0.7s infinite;
+    margin: 0 auto;
+    display: table;
+    margin-top: 50px;
+    animation-direction: alternate;
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+}
+@-webkit-keyframes pulse {
+    0% {
+        -webkit-transform: scale(1);
+        -webkit-filter: brightness(100%);
     }
-    @keyframes pulando {
-        0% {
-        transform: translateY(0px);
-        }
-        100% {
-            transform: translateY(100%);
-            width: 70x;
-            height: 40px;
-        }
+    100% {
+        -webkit-transform: scale(1.1);
+        -webkit-filter: brightness(110%);
     }
+}
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        filter: brightness(100%);
+    }
+    100% {
+        transform: scale(1.1);
+        filter: brightness(110%);
+    }
+}
+
+/* Fim Efeito Pulse */
+
 /* Fim Whatsapp */
-
