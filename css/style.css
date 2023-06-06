@@ -38,7 +38,7 @@ body, ul {
 
 #header {
  width: 100%;
- position: fixed;
+ position: relative;
  z-index: 90;
  box-sizing: border-box;
  height: 75px;
@@ -47,6 +47,7 @@ body, ul {
  align-items: center;
  justify-content: space-between;
  background: #e7e7e7;
+ box-shadow: 6px 6px 6px #0000007a;
 }
 
 #header figcaption {
@@ -76,10 +77,10 @@ body, ul {
 #carouselExampleInterval {
     position: relative;
     z-index: 10;
-    padding-top: 80px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
+    padding-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
     box-shadow: 6px 6px 6px #0000007a;
     transition: 0.3s;
     width: 100%;
@@ -87,7 +88,7 @@ body, ul {
     display: inline-flex;
 }
  #carouselExampleInterval .carousel-inner img {
-    height: 600px;
+    height: 550px;
     width: 90%;
 } 
 
@@ -158,7 +159,8 @@ body, ul {
 .section-banner-home {
     width: 100%;
     height: auto;
-    padding: 50px;
+    margin-top: 5px;
+    padding: 20px;
     background-color: #5d5d5d;
     display: ruby-base-container;
 }
@@ -308,14 +310,14 @@ body, ul {
 .rodape {
     padding: 50px 50px 0;
 }
-.rodape .container #logo_rodape {
+.rodape .container #img-logo {
     height: 50%;
     width: 50%;
     padding-left: 10px;
     transition: transform .3s;
     display: block;  
 }
-.rodape .container #logo_rodape:hover {
+.rodape .container #img-logo:hover {
     transform: scale(1.5);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
 }
@@ -337,9 +339,9 @@ body, ul {
     width: 50px;
     height: 50px;
     padding-left: 0;
-    margin-left: 0.7rem;
+    margin-left: 0.3rem;
     transition: transform .3s;
-    border-radius: 5px; /* Arredondando div do obejto redes sociais */
+    border-radius: 15px; /* Arredondando div do obejto redes sociais */
 }
 .rodape .redes-sociais img:hover {
     z-index: 1;
@@ -405,6 +407,10 @@ body, ul {
 /* Fim CSS Streaming */
 
 /* Início CSS Contato */
+
+.contato {
+    margin-top: 20px;
+}
 
 .form_main {
     width: 100%;
